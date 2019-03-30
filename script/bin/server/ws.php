@@ -23,8 +23,8 @@ class Ws
         $this->ws->set(
             [
                 'enable_static_handler' => true,
-//                'document_root' => "/Users/guochao/wap/thinkphp5-swoole/public/static",
-                'document_root' => "/www/wwwroot/thinkphp5-swoole/public/static",
+                'document_root' => "/Users/guochao/wap/thinkphp5-swoole/public/static",
+//                'document_root' => "/www/wwwroot/thinkphp5-swoole/public/static",
                 'worker_num' => 2,
                 'task_worker_num' => 2,
             ]
@@ -168,7 +168,6 @@ class Ws
      */
     public function onOpen($ws, $request)
     {
-        print_r($ws);exit;
 
         \app\common\lib\redis\Predis::getInstance()->sAdd(config('redis.live_game_key'), $request->fd);
         echo "onOpen:{$request->fd}" . PHP_EOL;
