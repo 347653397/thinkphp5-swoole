@@ -23,8 +23,8 @@ class Ws
         $this->ws->set(
             [
                 'enable_static_handler' => true,
-                'document_root' => "/Users/guochao/wap/thinkphp5-swoole/public/static",
-//                'document_root' => "/www/wwwroot/thinkphp5-swoole/public/static",
+//                'document_root' => "/Users/guochao/wap/thinkphp5-swoole/public/static",
+                'document_root' => "/www/wwwroot/thinkphp5-swoole/public/static",
                 'worker_num' => 2,
                 'task_worker_num' => 2,
             ]
