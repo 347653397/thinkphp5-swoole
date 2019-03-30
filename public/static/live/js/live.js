@@ -1,6 +1,6 @@
 
 $(function () {
-    var wsUrl = "ws://singwa.swoole.com:8811";
+    var wsUrl = "ws://guo.eachfight.com:8811";
 
     var websocket = new WebSocket(wsUrl);
 
