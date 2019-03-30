@@ -1,0 +1,12 @@
+[ 2018-12-01T09:58:49+00:00 ][ error ] [1]Uncaught Error: Class 'app\common\lib\redis\Predis' not found in /Users/guochao/wap/thinkphp5/script/bin/server/ws.php:181
+Stack trace:
+#0 {main}
+  thrown[/Users/guochao/wap/thinkphp5/script/bin/server/ws.php:181]
+[ 2018-12-01T10:00:57+00:00 ][ error ] [1]Uncaught Error: Class 'app\common\lib\redis\Predis' not found in /Users/guochao/wap/thinkphp5/script/bin/server/ws.php:181
+Stack trace:
+#0 {main}
+  thrown[/Users/guochao/wap/thinkphp5/script/bin/server/ws.php:181]
+[ 2018-12-01T10:01:10+00:00 ][ error ] [1]Uncaught Error: Class 'app\common\lib\redis\Predis' not found in /Users/guochao/wap/thinkphp5/script/bin/server/ws.php:181
+Stack trace:
+#0 {main}
+  thrown[/Users/guochao/wap/thinkphp5/script/bin/server/ws.php:181]
